@@ -89,7 +89,7 @@ class Timerandcapture extends Component {
                         self.setState({
                             showPreview: false,
                             timerValue: 4,
-                            infoText: 'Ok, Get Ready!',
+                            infoText: timerConstants.infoText,
                             totalNumberOfPicsToBeTaken: self.state.totalNumberOfPicsToBeTaken - 1,
                             numberOfSecondsToTakeAPic: 4,
                         });
